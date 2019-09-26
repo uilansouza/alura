@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7d5b4a4-8dd5-47f6-a23e-67096cb287c1" name="Default Changelist" comment="" />
+    <list default="true" id="c7d5b4a4-8dd5-47f6-a23e-67096cb287c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-basico" beforeDir="false" afterPath="$PROJECT_DIR$/../python-basico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tdd-python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tdd-python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leilao/principal.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leilao/principal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leilao/test_avaliador.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leilao/test_avaliador.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +23,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1RADgZewDLFJlmCZzNHl6yc2m1s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python-basico" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -32,28 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_avaliador.TestAvaliador.test_avalia">
-    <configuration name="dominio" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tdd-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leilao" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leilao/dominio.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for test_avaliador.TestAvaliador">
     <configuration name="principal (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tdd-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,25 +67,18 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="principal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for test_avaliador.TestAvaliador" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="tdd-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testes-python-projeto-inicial/src/leilao" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leilao" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testes-python-projeto-inicial/src/leilao/principal.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_avaliador.TestAvaliador&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for test_avaliador.TestAvaliador.test_avalia" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -110,7 +95,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_avaliador.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_avaliador.TestAvaliador.test_deve_retornar_O_mesmo_valor_para_o_maior_e_menor_lance_quando_leilao_tiver_tres_lances" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="tdd-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,17 +105,31 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/leilao/test_avaliador.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_avaliador.TestAvaliador.test_deve_retornar_O_mesmo_valor_para_o_maior_e_menor_lance_quando_leilao_tiver_tres_lances&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_avaliador.TestAvaliador.test_deve_retornar_O_mesmo_valor_para_o_maior_e_menor_lance_quando_leilao_tiver_um_lance" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="tdd-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leilao" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_avaliador.TestAvaliador.test_deve_retornar_O_mesmo_valor_para_o_maior_e_menor_lance_quando_leilao_tiver_um_lance&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_avaliador.TestAvaliador.test_avalia" />
-        <item itemvalue="Python tests.Unittests in test_avaliador.py" />
+        <item itemvalue="Python tests.Unittests for test_avaliador.TestAvaliador" />
+        <item itemvalue="Python tests.Unittests for test_avaliador.TestAvaliador.test_deve_retornar_O_mesmo_valor_para_o_maior_e_menor_lance_quando_leilao_tiver_tres_lances" />
+        <item itemvalue="Python tests.Unittests for test_avaliador.TestAvaliador.test_deve_retornar_O_mesmo_valor_para_o_maior_e_menor_lance_quando_leilao_tiver_um_lance" />
         <item itemvalue="Python.principal (1)" />
-        <item itemvalue="Python.dominio" />
-        <item itemvalue="Python.principal" />
+        <item itemvalue="Python tests.Unittests for test_avaliador.TestAvaliador.test_avalia" />
       </list>
     </recent_temporary>
   </component>
@@ -146,5 +145,16 @@
       <updated>1569101118784</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
