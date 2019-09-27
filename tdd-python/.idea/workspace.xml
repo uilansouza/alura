@@ -4,6 +4,7 @@
     <list default="true" id="c7d5b4a4-8dd5-47f6-a23e-67096cb287c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../python-basico" beforeDir="false" afterPath="$PROJECT_DIR$/../python-basico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leilao/dominio.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leilao/dominio.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leilao/test_avaliador.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leilao/test_avaliador.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
