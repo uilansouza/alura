@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7d5b4a4-8dd5-47f6-a23e-67096cb287c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../python-basico" beforeDir="false" afterPath="$PROJECT_DIR$/../python-basico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leilao/dominio.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leilao/dominio.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leilao/test_avaliador.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leilao/test_avaliador.py" afterDir="false" />
@@ -116,9 +115,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests for test_avaliador.TestAvaliador" />
+        <item itemvalue="Python tests.Unittests for test_avaliador.TestAvaliador.test_deve_retornar_o_maior_e_o_menor_valor_de_um_lance_quando_adicionads_em_ordem_crescente" />
         <item itemvalue="Python tests.Unittests for test_avaliador.TestAvaliador.test_deve_retornar_O_mesmo_valor_para_o_maior_e_menor_lance_quando_leilao_tiver_um_lance" />
         <item itemvalue="Python tests.Unittests for test_avaliador.TestAvaliador.test_deve_retornar_o_maior_e_o_menor_valor_de_um_lance_quando_adicionads_em_ordem_decrescente" />
-        <item itemvalue="Python tests.Unittests for test_avaliador.TestAvaliador.test_deve_retornar_o_maior_e_o_menor_valor_de_um_lance_quando_adicionads_em_ordem_crescente" />
         <item itemvalue="Python tests.Unittests for test_avaliador.TestAvaliador.test_deve_retornar_O_mesmo_valor_para_o_maior_e_menor_lance_quando_leilao_tiver_tres_lances" />
       </list>
     </recent_temporary>
