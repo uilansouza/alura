@@ -1,56 +1,53 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+
 
 const TableHead = () => {
-    return (
+    return(
         <thead>
-            <tr>
-                <th>Autores</th>
-                <th>Livros</th>
-                <th>Preços</th>
-                <th>Remover</th>
-            </tr>
+          <tr>
+            <th>Autor</th>
+            <th>Livro</th>
+            <th>Preco</th>
+            <th>Remover</th>
+          </tr>
         </thead>
-    )
+    );
 }
 
-const TableBody = () => {
-    return (
+const TableBody = props =>{
+    
+    const linhas = props.autores.map((linha, index)=>{
+       return( 
+       <tr key={index}>
+            <td>{linha.nome}</td>
+            <td>{linha.livro}</td>
+            <td>{linha.preco}</td>
+            <td><button onClick = {()=> {props.removeAutor(index)}}>Remover</button></td>
+        </tr>
+       );
+    });
+
+    return(
         <tbody>
-            <tr>
-                <td>Paulo</td>
-                <td>React</td>
-                <td>1000.00</td>
-                <td><button>Remover</button></td>
-            </tr>
-            <tr>
-                <td>Nico</td>
-                <td>React</td>
-                <td>1000.00</td>
-                <td><button>Remover</button></td>
-            </tr>
-            <tr>
-                <td>Daniel</td>
-                <td>React</td>
-                <td>1000.00</td>
-                <td><button>Remover</button></td>
-            </tr>
+          {linhas}
         </tbody>
-
-    )
+    );
 }
 
-class Tabela extends Component {
 
-    render() {
-        return (
-            <table>
-                <TableHead />
-                <TableBody />
+class Tabela extends Component{
+    
 
-            </table>
-
-
+    render(){
+        const { autores, removeAutor } = this.props;
+        
+        return(
+        <table>
+        <TableHead />
+        <TableBody autores={autores} removeAutor = {removeAutor }/>
+        </table>
         );
     }
+
 }
-export default Tabela
+export default Tabela;
