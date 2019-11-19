@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 
+
 const TableHead = () => {
     return(
         <thead>
@@ -22,7 +23,7 @@ const TableBody = props =>{
             <td>{linha.nome}</td>
             <td>{linha.livro}</td>
             <td>{linha.preco}</td>
-            <td><button onClick = {()=> {props.removeAutor(index)}}>Remover</button></td>
+            <td><button className='waves-effect waves-light btn' onClick = {()=> {props.removeAutor(index)}}>Remover</button></td>
         </tr>
        );
     });
@@ -42,7 +43,7 @@ class Tabela extends Component{
         const { autores, removeAutor } = this.props;
         
         return(
-        <table>
+        <table className="centered highlight">
         <TableHead />
         <TableBody autores={autores} removeAutor = {removeAutor }/>
         </table>
