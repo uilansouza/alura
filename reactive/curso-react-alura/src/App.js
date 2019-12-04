@@ -1,14 +1,14 @@
-import React, { Component , Fragment} from 'react';
-import './App.css';
+import React, { Component, Fragment } from 'react';
 import 'materialize-css/dist/css/materialize.min.css'
-import Form from './Formulario';
 import Tabela from './Tabela';
+import Formulario from './Formulario';
 import Header from './Header';
 
+
 class App extends Component {
-  
-   state =  {
-      autores:[
+
+  state = {
+    autores: [
       {
         nome: 'Paulo',
         livro: 'React',
@@ -28,41 +28,35 @@ class App extends Component {
         nome: 'Bruno',
         livro: 'DevOps',
         preco: '100'
-      },
-      {
-        nome: 'Vanessa',
-        livro: 'BI',
-        preco: '4500'
       }
-      ]};
+    ],
+  }
 
-    removeAutor = index =>{
-      const {autores} = this.state;
+  removeAutor = index => {
 
-      this.setState( 
-        {
-          autores : autores.filter((autor, posAtual) => {
-            console.log(index, posAtual)
-            return posAtual !== index;
-    
-          }),
-        }
-      );
-    }
-    escutadorDeSubmit = autor =>{
-      this.setState({ autores:[...this.state.autores, autor]})
-    }
+    const { autores } = this.state;
 
+    this.setState({
+      autores: autores.filter((autor, posAtual) => {
+        return posAtual !== index;
+      }),
+    })
+
+  }
+
+  escutadorDeSubmit = autor => {
+    this.setState({ autores: [...this.state.autores, autor] });
+  }
   render() {
     return (
-        <Fragment>
-          <Header />
-          <div className="container mb-10">
-          <Tabela autores = {this.state.autores} removeAutor = {this.removeAutor}/>  
-          <Form escutadorDeSubmit = {this.escutadorDeSubmit} />
-          </div>
-        </Fragment>
-      
+      <Fragment>
+        <Header />
+        <div className="container mb-10">
+          <h1>Casa do código</h1>
+          <Tabela autores={this.state.autores} removeAutor={this.removeAutor} />
+          <Formulario escutadorDeSubmit={this.escutadorDeSubmit} />
+        </div>
+      </Fragment>
     );
   }
 }
