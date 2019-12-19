@@ -3,6 +3,7 @@ import "materialize-css/dist/css/materialize.min.css";
 import Tabela from "./Tabela";
 import Formulario from "./Formulario";
 import Header from "./Header";
+import ApiService from "./ApiService";
 
 class App extends Component {
   state = {
@@ -44,9 +45,7 @@ class App extends Component {
     this.setState({ autores: [...this.state.autores, autor] });
   };
   render() {
-    fetch("http://localhost:8000/api/autor")
-      .then(res => res.json())
-      .then(console.log);
+    const autores = ApiService.ListaAutores();
     return (
       <Fragment>
         <Header />
